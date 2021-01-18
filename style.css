@@ -35,7 +35,7 @@ body {
 .seconds {
   width: 5px;
   height: 330px;
-  background-color: blue;
+  background-color: Black;
   border-radius: 30%;
   position: absolute;
   left: 50.5%;
@@ -47,7 +47,7 @@ body {
 .minutes {
   width: 10px;
   height: 340px;
-  background-color: red;
+  background-color: rgb(95, 126, 211);
   border-radius: 25%;
   position: absolute;
   left: 50.5%;
@@ -59,7 +59,7 @@ body {
 .hours {
   width: 10px;
   height: 260px;
-  background-color: yellow;
+  background-color: red;
   border-radius: 25%;
   position: absolute;
   left: 50.5%;
@@ -78,7 +78,7 @@ body {
 }
 @keyframes minutos {
   from {
-    transform: rotate(177deg);
+    transform: rotate(179deg);
   }
   to {
     transform: rotate(360deg);
